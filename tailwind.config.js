@@ -8,23 +8,35 @@ export default {
     "./app.vue",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: '15px',
+      screens: {
+        DEFAULT: '768px',
+      },
+    },
     extend: {
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: '1rem',
-          sm: '2rem',
-          lg: '4rem',
-          xl: '5rem',
-          '2xl': '6rem',
+      colors: {
+        accent: {
+          DEFAULT: '#2563eb',
+          light: '#3b82f6',
         },
-        screens: {
-          sm: '640px',
-          md: '768px',
-          lg: '1024px',
-          xl: '1280px',
-          '2xl': '1400px',
+        primary: '#1f2937',
+        muted: '#6b7280',
+        bg: {
+          DEFAULT: '#ffffff',
+          card: '#f9fafb',
         },
+        border: '#e5e7eb',
+      },
+      spacing: {
+        'xs': '8px',
+        'sm': '16px',
+        'md': '24px',
+        'lg': '32px',
+        'xl': '48px',
+        '2xl': '64px',
+        '3xl': '96px',
       },
     },
   },
