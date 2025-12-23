@@ -3,9 +3,9 @@
     <button
       v-for="loc in availableLocales"
       :key="loc.code"
-      @click="switchLocale(loc.code)"
       :class="{ active: locale === loc.code }"
       class="lang-btn"
+      @click="switchLocale(loc.code)"
     >
       {{ loc.name }}
     </button>

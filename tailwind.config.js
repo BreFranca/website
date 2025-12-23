@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./app.vue",
+    './components/**/*.{js,vue,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './app.vue',
   ],
   theme: {
     container: {
@@ -30,11 +30,11 @@ export default {
         border: '#e5e7eb',
       },
       spacing: {
-        'xs': '8px',
-        'sm': '16px',
-        'md': '24px',
-        'lg': '32px',
-        'xl': '48px',
+        xs: '8px',
+        sm: '16px',
+        md: '24px',
+        lg: '32px',
+        xl: '48px',
         '2xl': '64px',
         '3xl': '96px',
       },

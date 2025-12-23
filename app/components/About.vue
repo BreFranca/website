@@ -4,7 +4,7 @@
       <div class="flex">
         <h1 class="text-2xl font-bold">Breno Franca</h1>
       </div>
-      <p class="text-muted text-sm">{{ t('about.description') }}</p>
+      <p class="text-sm text-muted">{{ t('about.description') }}</p>
     </div>
   </section>
 </template>
