@@ -1,20 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/i18n',
-  ],
-  
-  runtimeConfig: {
-    public: {
-      strapiUrl: process.env.STRAPI_URL || 'http://localhost:1337',
-    }
-  },
-  
+  ssr: true,
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
   i18n: {
     locales: [
       { code: 'pt', iso: 'pt-BR', name: 'Português', file: 'pt.json' },
-      { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' }
+      { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' },
     ],
     defaultLocale: 'pt',
     strategy: 'prefix_except_default',
@@ -24,9 +15,9 @@ export default defineNuxtConfig({
       redirectOn: 'root',
     },
     langDir: '../locales',
-    lazy: true
+    lazy: true,
   },
-  
+
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
