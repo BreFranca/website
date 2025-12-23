@@ -1,0 +1,10 @@
+{
+  "home": {
+    "title": "Breno França",
+    "subtitle": "Full Stack Developer",
+    "hero": {
+      "greeting": "Hi, I'm Breno França",
+      "description": "Full Stack Developer passionate about creating innovative and efficient solutions."
+    }
+  }
+}
