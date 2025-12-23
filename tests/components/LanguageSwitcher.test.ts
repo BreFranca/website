@@ -17,7 +17,7 @@ describe('LanguageSwitcher Component', () => {
   it('calls switchLocale when button is clicked', async () => {
     const wrapper = await mountSuspended(LanguageSwitcher)
     const buttons = wrapper.findAll('button')
-    
+
     if (buttons.length > 0) {
       await buttons[0].trigger('click')
       expect(wrapper.exists()).toBe(true)
