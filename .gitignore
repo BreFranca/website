@@ -23,4 +23,8 @@ logs
 .env.*
 !.env.example
 
+# Test coverage
+coverage
+*.lcov
+
 pnpm-lock.yaml

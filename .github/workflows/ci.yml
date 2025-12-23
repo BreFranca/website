@@ -45,8 +45,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
-        run: npm test -- --run
+      - name: Prepare Nuxt
+        run: npx nuxi prepare
+
+      - name: Run tests with coverage
+        run: npm run test:coverage -- --run
 
   build:
     runs-on: ubuntu-latest
