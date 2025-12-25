@@ -1,10 +1,5 @@
 {
-  "home": {
-    "title": "Breno França",
-    "subtitle": "Desenvolvedor Full Stack",
-    "hero": {
-      "greeting": "Olá, eu sou o Breno França",
-      "description": "Desenvolvedor Full Stack apaixonado por criar soluções inovadoras e eficientes."
-    }
+  "about": {
+    "description": "9+ anos de experiência na construção de produtos web escaláveis e interfaces de usuário excepcionais. Especializado em React, Vue.js, TypeScript e arquitetura frontend moderna."
   }
 }

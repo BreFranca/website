@@ -1,10 +1,10 @@
 <template>
-  <section class="py-12">
+  <section class="pb-10 pt-12">
     <div class="container flex flex-col gap-6">
       <div class="flex">
         <h1 class="text-2xl font-bold">Breno Franca</h1>
       </div>
-      <p class="text-sm text-muted">{{ t('about.description') }}</p>
+      <p class="text-muted">{{ t('about.description') }}</p>
     </div>
   </section>
 </template>
