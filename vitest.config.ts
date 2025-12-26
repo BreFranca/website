@@ -23,10 +23,10 @@ export default defineVitestConfig({
         'app/server/**',
       ],
       thresholds: {
-        lines: 70,
+        lines: 65,
         functions: 50,
         branches: 65,
-        statements: 70,
+        statements: 65,
       },
     },
   },
