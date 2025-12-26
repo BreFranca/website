@@ -12,5 +12,8 @@
   "at": "at",
   "sections": {
     "experience": "Experience"
+  },
+  "experience": {
+    "yearsShort": "yrs"
   }
 }

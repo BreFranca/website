@@ -1,13 +1,4 @@
-export interface MenuItem {
-  id: string
-  label: string
-}
-
-type MenuTab = MenuItem
-
-interface MenuResponse {
-  tabs: MenuTab[]
-}
+import type { MenuItem, MenuResponse } from '~/types/menu'
 
 export const useMenu = () => {
   const { t } = useI18n()
