@@ -1,5 +1,12 @@
 {
   "about": {
     "description": "9+ anos de experiência na construção de produtos web escaláveis e interfaces de usuário excepcionais. Especializado em React, Vue.js, TypeScript e arquitetura frontend moderna."
+  },
+  "menu": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "contact": "Contato"
   }
 }
