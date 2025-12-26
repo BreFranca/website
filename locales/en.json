@@ -11,7 +11,9 @@
   },
   "at": "at",
   "sections": {
-    "experience": "Experience"
+    "experience": "Experience",
+    "projects": "Projects",
+    "techStack": "Tech Stack"
   },
   "experience": {
     "yearsShort": "yrs"

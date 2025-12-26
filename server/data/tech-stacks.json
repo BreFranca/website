@@ -1,0 +1,28 @@
+{
+  "stacks": [
+    {
+      "name": "JavaScript",
+      "experience": 8
+    },
+    {
+      "name": "TypeScript",
+      "experience": 7
+    },
+    {
+      "name": "Vue.js",
+      "experience": 7
+    },
+    {
+      "name": "Nuxt.js",
+      "experience": 7
+    },
+    {
+      "name": "Node.js",
+      "experience": 5
+    },
+    {
+      "name": "Python",
+      "experience": 5
+    }
+  ]
+}

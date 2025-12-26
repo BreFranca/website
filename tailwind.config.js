@@ -28,16 +28,14 @@ export default {
         ],
       },
       colors: {
+        white: '#ffffff',
         accent: {
           DEFAULT: '#2563eb',
           light: '#3b82f6',
         },
         primary: '#1f2937',
         muted: '#6b7280',
-        bg: {
-          DEFAULT: '#ffffff',
-          card: '#f9fafb',
-        },
+        card: '#f9fafb',
         border: '#e5e7eb',
       },
       spacing: {

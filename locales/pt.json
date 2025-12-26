@@ -11,7 +11,9 @@
   },
   "at": "em",
   "sections": {
-    "experience": "Experiência"
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "techStack": "Tech Stack"
   },
   "experience": {
     "yearsShort": "anos"

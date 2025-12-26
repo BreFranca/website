@@ -1,5 +1,5 @@
 <template>
-  <section :id="sectionId" class="pb-10 pt-12">
+  <section :id="sectionId" class="pb-5 pt-6">
     <div class="container">
       <h2 class="section-title">{{ title }}</h2>
       <slot />
@@ -19,6 +19,6 @@ section {
   @apply mb-6;
 }
 .section-title {
-  @apply mb-6 text-sm font-bold uppercase text-primary;
+  @apply text-primary mb-6 text-sm font-bold uppercase;
 }
 </style>
