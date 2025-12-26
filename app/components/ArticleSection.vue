@@ -19,6 +19,6 @@ section {
   @apply mb-6;
 }
 .section-title {
-  @apply text-primary mb-6 text-sm font-bold uppercase;
+  @apply mb-6 text-sm font-bold uppercase text-primary;
 }
 </style>

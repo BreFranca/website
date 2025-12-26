@@ -16,7 +16,7 @@ defineProps<{
 <style scoped>
 .tech-badge {
   display: flex;
-  @apply border-border bg-card items-center justify-between rounded-lg border px-3.5 py-2.5 transition-all duration-200 ease-in-out;
+  @apply items-center justify-between rounded-lg border border-border bg-card px-3.5 py-2.5 transition-all duration-200 ease-in-out;
 }
 
 .tech-badge:hover {
