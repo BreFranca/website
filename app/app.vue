@@ -4,12 +4,15 @@ import Menu from './components/Menu.vue'
 </script>
 
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
+  <NuxtRouteAnnouncer />
+  <main>
     <About />
     <Menu />
-    <NuxtPage />
-  </div>
+    <div id="content">
+      <NuxtPage />
+    </div>
+    <Footer />
+  </main>
 </template>
 
 <style>
@@ -19,6 +22,12 @@ html {
 
 main {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  flex: 1;
 }
 
 .scrollbar-custom::-webkit-scrollbar {
