@@ -15,21 +15,10 @@
 import ShortExperience from '~/components/experience/ShortExperience.vue'
 import { useI18n } from 'vue-i18n'
 import ArticleSection from '~/components/ArticleSection.vue'
-const { t } = useI18n()
-const experiences = [
-  {
-    id: 1,
-    role: 'Frontend Developer',
-    company: 'Tech Solutions',
-    companyUrl: 'https://techsolutions.com',
-    period: 'Jan 2020 - Present',
-  },
-  {
-    id: 2,
-    role: 'Web Developer',
-    company: 'WebWorks',
-    companyUrl: 'https://webworks.com',
-    period: 'Jun 2018 - Dec 2019',
-  },
-]
+const { t, locale } = useI18n()
+const { data } = await useFetch('/api/experiences', {
+  query: { locale },
+  watch: [locale],
+})
+const experiences = computed(() => data.value?.experiences || [])
 </script>
