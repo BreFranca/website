@@ -7,7 +7,7 @@
 
 <script setup lang="ts">
 const { t } = useI18n()
-const props = defineProps<{
+defineProps<{
   expName: string
   expYears: number
 }>()

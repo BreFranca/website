@@ -1,25 +1,27 @@
 <template>
-  <ArticleSection section-id="experience" :title="t('sections.experience')">
-    <template v-for="experience in experiences" :key="experience.id">
-      <ShortExperience
-        :role="experience.role"
-        :company="experience.company"
-        :company-url="experience.companyUrl"
-        :period="experience.period"
-      />
-    </template>
-  </ArticleSection>
+  <div>
+    <ArticleSection section-id="experience" :title="t('sections.experience')">
+      <template v-for="experience in experiences" :key="experience.id">
+        <ShortExperience
+          :role="experience.role"
+          :company="experience.company"
+          :company-url="experience.companyUrl"
+          :period="experience.period"
+        />
+      </template>
+    </ArticleSection>
 
-  <ArticleSection section-id="tech-stack" :title="t('sections.techStack')">
-    <div class="tech-stack-grid">
-      <TechStack
-        v-for="tech in stacks"
-        :key="tech.name"
-        :exp-name="tech.name"
-        :exp-years="tech.experience"
-      />
-    </div>
-  </ArticleSection>
+    <ArticleSection section-id="tech-stack" :title="t('sections.techStack')">
+      <div class="tech-stack-grid">
+        <TechStack
+          v-for="tech in stacks"
+          :key="tech.name"
+          :exp-name="tech.name"
+          :exp-years="tech.experience"
+        />
+      </div>
+    </ArticleSection>
+  </div>
 </template>
 
 <script setup lang="ts">
