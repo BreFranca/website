@@ -8,5 +8,9 @@
     "projects": "Projetos",
     "experience": "Experiência",
     "contact": "Contato"
+  },
+  "at": "em",
+  "sections": {
+    "experience": "Experiência"
   }
 }

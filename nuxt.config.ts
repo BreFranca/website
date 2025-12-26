@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: true,
+  srcDir: 'app/',
+  serverDir: 'server/',
+  dir: {
+    public: '../public',
+  },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxt/eslint'],
   i18n: {
     locales: [

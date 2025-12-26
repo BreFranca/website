@@ -20,7 +20,7 @@ export default defineVitestConfig({
         '**/*.config.*',
         '**/tests/**',
         'app/pages/**',
-        'app/server/**',
+        'server/**',
       ],
       thresholds: {
         lines: 65,
