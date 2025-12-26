@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-10 pt-12" :id="sectionId">
+  <section :id="sectionId" class="pb-10 pt-12">
     <div class="container">
       <h2 class="section-title">{{ title }}</h2>
       <slot />

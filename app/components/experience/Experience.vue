@@ -12,7 +12,6 @@
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n()
 defineProps<{
   role: string
   company: string

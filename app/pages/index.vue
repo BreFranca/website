@@ -1,10 +1,10 @@
 <template>
-  <ArticleSection sectionId="experience" :title="t('sections.experience')">
+  <ArticleSection section-id="experience" :title="t('sections.experience')">
     <template v-for="experience in experiences" :key="experience.id">
       <ShortExperience
         :role="experience.role"
         :company="experience.company"
-        :companyUrl="experience.companyUrl"
+        :company-url="experience.companyUrl"
         :period="experience.period"
       />
     </template>
