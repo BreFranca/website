@@ -5,10 +5,10 @@
         <Experience
           v-for="experience in experiences"
           :key="experience.id"
-          :role="experience.role"
+          :role="t(experience.role)"
           :period="experience.period"
-          :company="experience.company"
-          :description="experience.description"
+          :company="t(experience.company)"
+          :description="t(experience.description)"
           :company-url="experience.companyUrl"
         />
       </section>

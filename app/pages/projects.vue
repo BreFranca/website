@@ -3,9 +3,9 @@
     <section id="projects">
       <Project
         v-for="project in projects"
-        :key="project.name"
-        :title="project.name"
-        :description="project.description"
+        :key="project.id"
+        :title="t(project.name)"
+        :description="t(project.description)"
         :link="project.link"
         :technologies="project.technologies"
         :image="project.image"
@@ -18,12 +18,9 @@
 import ArticleSection from '~/components/ArticleSection.vue'
 import Project from '~/components/Project.vue'
 import type { ApiProjectResponse } from '~/types/project'
-const { t, locale } = useI18n()
+const { t } = useI18n()
 
-const { data } = await useFetch<ApiProjectResponse>('/api/projects', {
-  query: { locale },
-  watch: [locale],
-})
+const { data } = await useFetch<ApiProjectResponse>('/api/projects')
 const projects = computed(() => data.value?.projects || [])
 </script>
 
