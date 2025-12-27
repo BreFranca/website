@@ -26,7 +26,7 @@ defineProps<{
 
 <style scoped>
 .experience-content {
-  @apply flex flex-col gap-2 border-b-[1px] border-muted/20 pb-8 last:border-0;
+  @apply flex flex-col gap-2 border-b-[1px] border-muted/20 pb-8 last:border-0 last:pb-0;
 }
 
 .experience-header {
