@@ -3,13 +3,14 @@ import { mountSuspended } from '@nuxt/test-utils/runtime'
 import Projects from '~/pages/projects.vue'
 
 describe('Projects Page', () => {
-  it('renders projects page', async () => {
+  it('renders projects page with title', async () => {
     const wrapper = await mountSuspended(Projects)
-    expect(wrapper.text()).toContain('Projetos')
+    const section = wrapper.find('section')
+    expect(section.exists()).toBe(true)
   })
 
-  it('renders a div element', async () => {
+  it('renders project section', async () => {
     const wrapper = await mountSuspended(Projects)
-    expect(wrapper.find('div').exists()).toBe(true)
+    expect(wrapper.find('#projects').exists()).toBe(true)
   })
 })

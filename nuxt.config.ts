@@ -9,10 +9,10 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxt/eslint', '@nuxt/icon'],
   i18n: {
     locales: [
-      { code: 'pt', iso: 'pt-BR', name: 'Português', file: 'pt.json' },
       { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' },
+      { code: 'pt', iso: 'pt-BR', name: 'Português', file: 'pt.json' },
     ],
-    defaultLocale: 'pt',
+    defaultLocale: 'en',
     strategy: 'prefix_except_default',
     detectBrowserLanguage: {
       useCookie: true,
