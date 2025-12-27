@@ -1,3 +1,5 @@
+import type { Stack } from './stacks'
+
 export type ExperiencePeriod = {
   start: string
   end: string | null
@@ -15,4 +17,5 @@ export interface Experience {
 
 export interface ApiExperiencesResponse {
   experiences: Experience[]
+  stacks: Stack[]
 }
