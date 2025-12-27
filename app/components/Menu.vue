@@ -31,7 +31,7 @@ const isActiveTab = (tabId: string) => {
 
 <style scoped>
 .tabs-nav {
-  @apply mb-10 flex gap-6 overflow-x-auto border-b border-border pb-4;
+  @apply mb-5 flex gap-6 overflow-x-auto border-b border-border pb-4;
 }
 
 .tabs-nav::-webkit-scrollbar {
