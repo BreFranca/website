@@ -1,4 +1,4 @@
-enum ContactType {
+export enum ContactType {
   EMAIL = 'email',
   PHONE = 'phone',
   LINKEDIN = 'linkedin',
@@ -7,11 +7,14 @@ enum ContactType {
   WEBSITE = 'website',
 }
 
-interface Contact {
+export interface Contact {
   type: ContactType
   icon: string
   label: string
+  description: string
   url: string
 }
 
-export type { Contact }
+export interface ApiContactResponse {
+  contacts: Contact[]
+}

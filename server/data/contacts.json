@@ -4,18 +4,21 @@
       "type": "github",
       "url": "https://github.com/BreFranca",
       "icon": "mdi:github",
+      "description": "@BreFranca",
       "label": "GitHub"
     },
     {
       "type": "linkedin",
       "icon": "mdi:linkedin",
       "url": "https://www.linkedin.com/in/bresfranca/",
+      "description": "/in/bresfranca/",
       "label": "LinkedIn"
     },
     {
       "type": "email",
       "icon": "mdi:email-outline",
       "url": "mailto:bre.sfranca@gmail.com",
+      "description": "bre.sfranca@gmail.com",
       "label": "E-mail"
     }
   ]

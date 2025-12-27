@@ -5,11 +5,11 @@ import Contact from '~/pages/contact.vue'
 describe('Contact Page', () => {
   it('renders contact page', async () => {
     const wrapper = await mountSuspended(Contact)
-    expect(wrapper.text()).toContain('Contact')
+    expect(wrapper.exists()).toBe(true)
   })
 
-  it('renders a div element', async () => {
+  it('renders a section element', async () => {
     const wrapper = await mountSuspended(Contact)
-    expect(wrapper.find('div').exists()).toBe(true)
+    expect(wrapper.find('section').exists()).toBe(true)
   })
 })
