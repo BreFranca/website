@@ -1,28 +1,112 @@
 {
   "stacks": [
     {
-      "name": "JavaScript",
-      "experience": 8
+      "id": "react",
+      "name": "React",
+      "experience": 7,
+      "category": "frontend"
     },
     {
-      "name": "TypeScript",
-      "experience": 7
+      "id": "nextjs",
+      "name": "Next.js",
+      "experience": 5,
+      "category": "frontend"
     },
     {
+      "id": "vue",
       "name": "Vue.js",
-      "experience": 7
+      "experience": 5,
+      "category": "frontend"
     },
     {
-      "name": "Nuxt.js",
-      "experience": 7
+      "id": "nuxt",
+      "name": "Nuxt",
+      "experience": 4,
+      "category": "frontend"
     },
     {
+      "id": "typescript",
+      "name": "TypeScript",
+      "experience": 5,
+      "category": "frontend"
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "experience": 9,
+      "category": "frontend"
+    },
+    {
+      "id": "redux",
+      "name": "Redux",
+      "experience": 6,
+      "category": "frontend"
+    },
+    {
+      "id": "tailwind",
+      "name": "Tailwind CSS",
+      "experience": 4,
+      "category": "frontend"
+    },
+    {
+      "id": "nodejs",
       "name": "Node.js",
-      "experience": 5
+      "experience": 7,
+      "category": "backend"
     },
     {
+      "id": "php",
+      "name": "PHP",
+      "experience": 5,
+      "category": "backend"
+    },
+    {
+      "id": "laravel",
+      "name": "Laravel",
+      "experience": 5,
+      "category": "backend"
+    },
+    {
+      "id": "python",
       "name": "Python",
-      "experience": 5
+      "experience": 3,
+      "category": "backend"
+    },
+    {
+      "id": "graphql",
+      "name": "GraphQL",
+      "experience": 3,
+      "category": "backend"
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "experience": 4,
+      "category": "devops"
+    },
+    {
+      "id": "jest",
+      "name": "Jest",
+      "experience": 5,
+      "category": "testing"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "experience": 9,
+      "category": "tools"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "experience": 4,
+      "category": "tools"
+    },
+    {
+      "id": "storybook",
+      "name": "Storybook",
+      "experience": 3,
+      "category": "tools"
     }
   ]
 }
