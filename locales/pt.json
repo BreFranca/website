@@ -14,9 +14,11 @@
     "experience": "Experiência",
     "projects": "Projetos",
     "techStack": "Tech Stack",
-    "connect": "Conecte"
+    "connect": "Conecte",
+    "contact": "Vamos trabalhar juntos?"
   },
   "experience": {
     "yearsShort": "anos"
-  }
+  },
+  "present": "Presente"
 }

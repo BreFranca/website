@@ -2,7 +2,9 @@
   <article class="experience-content">
     <div class="experience-header">
       <h3>{{ role }}</h3>
-      <span class="experience-period">{{ period }}</span>
+      <span class="experience-period"
+        >{{ period.start }} - {{ period.end ? period.end : t('present') }}</span
+      >
     </div>
     <p class="company">{{ company }}</p>
     <p class="description">{{ description }}</p>
@@ -11,6 +13,7 @@
 
 <script setup lang="ts">
 import type { ExperiencePeriod } from '~/types/experience'
+const { t } = useI18n()
 
 defineProps<{
   role: string

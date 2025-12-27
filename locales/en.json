@@ -11,12 +11,14 @@
   },
   "at": "at",
   "sections": {
-    "experience": "Experience",
+    "experience": "Resume",
     "projects": "Projects",
     "techStack": "Tech Stack",
-    "connect": "Connect"
+    "connect": "Connect",
+    "contact": "Let's work together?"
   },
   "experience": {
     "yearsShort": "yrs"
-  }
+  },
+  "present": "Present"
 }

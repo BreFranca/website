@@ -26,6 +26,6 @@ const contacts = computed(() => data.value?.contacts || [])
 
 <style scoped>
 .contacts-grid {
-  @apply grid grid-cols-2 gap-6;
+  @apply grid grid-cols-1 gap-6 sm:grid-cols-2;
 }
 </style>
