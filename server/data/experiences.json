@@ -1,26 +1,3 @@
 {
-  "experiences": [
-    {
-      "id": 1,
-      "role": "Frontend Developer",
-      "company": "Tech Solutions",
-      "companyUrl": "https://techsolutions.com",
-      "description": "Developing and maintaining user interfaces with a focus on performance and accessibility.",
-      "period": {
-        "start": "Jan 2020",
-        "end": "Present"
-      }
-    },
-    {
-      "id": 2,
-      "role": "Web Developer",
-      "company": "WebWorks",
-      "companyUrl": "https://webworks.com",
-      "description": "Built responsive websites and collaborated with designers to enhance user experience.",
-      "period": {
-        "start": "Jun 2018",
-        "end": "Dec 2019"
-      }
-    }
-  ]
+  "experiences": []
 }
