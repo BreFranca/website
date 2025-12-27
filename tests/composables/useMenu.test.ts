@@ -1,7 +1,13 @@
 import { describe, it, expect } from 'vitest'
-import { defineComponent, h } from 'vue'
+import { defineComponent } from 'vue'
 import { mountSuspended } from '@nuxt/test-utils/runtime'
 import { useMenu } from '~/composables/useMenu'
+import type { MenuItem } from '~/types/menu'
+
+interface TestComponentProps {
+  tabs: MenuItem[]
+  isLoading: boolean
+}
 
 describe('useMenu composable', () => {
   it('should return tabs and isLoading', async () => {
@@ -14,7 +20,7 @@ describe('useMenu composable', () => {
     })
 
     const wrapper = await mountSuspended(TestComponent)
-    const vm = wrapper.vm as any
+    const vm = wrapper.vm as TestComponentProps
 
     expect(vm.tabs).toBeDefined()
     expect(vm.isLoading).toBeDefined()
@@ -30,7 +36,7 @@ describe('useMenu composable', () => {
     })
 
     const wrapper = await mountSuspended(TestComponent)
-    const vm = wrapper.vm as any
+    const vm = wrapper.vm as { tabs: MenuItem[] }
 
     expect(Array.isArray(vm.tabs)).toBe(true)
   })
@@ -45,7 +51,7 @@ describe('useMenu composable', () => {
     })
 
     const wrapper = await mountSuspended(TestComponent)
-    const vm = wrapper.vm as any
+    const vm = wrapper.vm as { tabs: MenuItem[] }
 
     if (vm.tabs.length > 0) {
       expect(vm.tabs[0]).toHaveProperty('id')
@@ -63,7 +69,7 @@ describe('useMenu composable', () => {
     })
 
     const wrapper = await mountSuspended(TestComponent)
-    const vm = wrapper.vm as any
+    const vm = wrapper.vm as { isLoading: boolean }
 
     expect(typeof vm.isLoading).toBe('boolean')
   })
