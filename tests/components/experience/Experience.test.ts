@@ -31,7 +31,7 @@ describe('Experience Component', () => {
     const wrapper = await mountSuspended(Experience, {
       props: mockProps,
     })
-    const period = wrapper.find('.timeline-period')
+    const period = wrapper.find('.experience-period')
     expect(period.exists()).toBe(true)
     expect(period.text()).toBe(mockProps.period)
   })
@@ -54,12 +54,12 @@ describe('Experience Component', () => {
     expect(description.text()).toBe(mockProps.description)
   })
 
-  it('renders the timeline structure', async () => {
+  it('renders the experience structure', async () => {
     const wrapper = await mountSuspended(Experience, {
       props: mockProps,
     })
     expect(wrapper.find('article').exists()).toBe(true)
-    expect(wrapper.find('.timeline-content').exists()).toBe(true)
-    expect(wrapper.find('.timeline-header').exists()).toBe(true)
+    expect(wrapper.find('.experience-content').exists()).toBe(true)
+    expect(wrapper.find('.experience-header').exists()).toBe(true)
   })
 })
