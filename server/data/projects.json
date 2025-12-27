@@ -1,3 +1,69 @@
 {
-  "projects": []
+  "projects": [
+    {
+      "id": "flowsign",
+      "name": "projects.flowsign.name",
+      "description": "projects.flowsign.description",
+      "technologies": [
+        "React",
+        "PHP",
+        "Laravel",
+        "Node.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "CI/CD"
+      ],
+      "link": "https://flowsign.com/"
+    },
+    {
+      "id": "likeappro",
+      "name": "projects.likeappro.name",
+      "description": "projects.likeappro.description",
+      "technologies": ["React Native", "Expo", "Firebase", "TypeScript", "Node.js"],
+      "link": "https://www.likeappro.com/"
+    },
+    {
+      "id": "nespresso",
+      "name": "projects.nespresso.name",
+      "description": "projects.nespresso.description",
+      "technologies": ["React", "JavaScript", "PHP", "Laravel", "MySQL", "Docker", "CI/CD"],
+      "link": "https://www.nespresso.com/"
+    },
+    {
+      "id": "vexty",
+      "name": "projects.vexty.name",
+      "description": "projects.vexty.description",
+      "technologies": ["React", "TypeScript", "TypeScript", "PHP", "Wordpress"],
+      "link": "https://vexty.com.br/laminas-de-investimento-2023/"
+    },
+    {
+      "id": "abconsindcon",
+      "name": "projects.abconsindcon.name",
+      "description": "projects.abconsindcon.description",
+      "technologies": ["PHP", "Wordpress", "JavaScript"],
+      "link": "https://abconsindcon.com.br/"
+    },
+    {
+      "id": "previbayer",
+      "name": "projects.previbayer.name",
+      "description": "projects.previbayer.description",
+      "technologies": ["PHP", "HTML", "JavaScript", "CSS", "MySQL", "Wordpress"],
+      "link": "https://www.previbayer.com.br/"
+    },
+    {
+      "id": "atvos",
+      "name": "projects.atvos.name",
+      "description": "projects.atvos.description",
+      "technologies": ["PHP", "HTML", "JavaScript", "CSS", "MySQL", "Wordpress"],
+      "link": "https://atvos.com/en/"
+    },
+    {
+      "id": "novonor",
+      "name": "projects.novonor.name",
+      "description": "projects.novonor.description",
+      "technologies": ["PHP", "HTML", "JavaScript", "CSS", "MySQL", "Wordpress"],
+      "link": "https://noticias.novonor.com/on/"
+    }
+  ]
 }

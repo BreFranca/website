@@ -21,6 +21,39 @@
     "yearsShort": "yrs"
   },
   "present": "Present",
-  "projects": {},
+  "projects": {
+    "flowsign": {
+      "name": "FlowSign",
+      "description": "Digital signature platform for electronic document management and workflow automation."
+    },
+    "abconsindcon": {
+      "name": "Abcon Sindcon Website",
+      "description": "Construction industry union association website with member services and news."
+    },
+    "likeappro": {
+      "name": "LikeAppro",
+      "description": "Social approval and engagement platform for content validation and workflow management."
+    },
+    "previbayer": {
+      "name": "Previ Bayer Brazil",
+      "description": "Private pension fund management system for Bayer employees in Brazil."
+    },
+    "nespresso": {
+      "name": "Nespresso Professional",
+      "description": "Developed shipping module with carrier integration in cart and order return module in user admin dashboard."
+    },
+    "atvos": {
+      "name": "Atvos Corporate Website",
+      "description": "Corporate website for renewable energy and biofuels company."
+    },
+    "novonor": {
+      "name": "Novonor News",
+      "description": "News portal and corporate communications platform for Novonor group."
+    },
+    "vexty": {
+      "name": "Vexty Investment Reports",
+      "description": "Interactive investment reports and financial data visualization platform."
+    }
+  },
   "experiences": {}
 }

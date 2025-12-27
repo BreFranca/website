@@ -21,6 +21,39 @@
     "yearsShort": "anos"
   },
   "present": "Presente",
-  "projects": {},
+  "projects": {
+    "flowsign": {
+      "name": "FlowSign",
+      "description": "Plataforma de assinatura digital para gestão de documentos eletrônicos e automação de fluxos de trabalho."
+    },
+    "abconsindcon": {
+      "name": "AAbcon Sindcon Website",
+      "description": "Site da associação sindical da indústria da construção com serviços para membros e notícias."
+    },
+    "likeappro": {
+      "name": "LikeAppro",
+      "description": "Plataforma de aprovação social e engajamento para validação de conteúdo e gestão de workflows."
+    },
+    "previbayer": {
+      "name": "Previ Bayer Brasil",
+      "description": "Sistema de gestão de previdência privada para funcionários da Bayer no Brasil."
+    },
+    "nespresso": {
+      "name": "Nespresso Professional",
+      "description": "Desenvolvi o módulo de frete com integração de transportadoras no carrinho e módulo de devolução de pedidos no painel do usuário."
+    },
+    "atvos": {
+      "name": "Atvos Corporate Website",
+      "description": "Site corporativo de empresa de energia renovável e biocombustíveis."
+    },
+    "novonor": {
+      "name": "Novonor Notícias",
+      "description": "Portal de notícias e plataforma de comunicação corporativa do grupo Novonor."
+    },
+    "vexty": {
+      "name": "Vexty Relatórios de Investimento",
+      "description": "Plataforma de relatórios de investimento interativos e visualização de dados financeiros."
+    }
+  },
   "experiences": {}
 }
