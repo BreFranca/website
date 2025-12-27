@@ -8,7 +8,7 @@ import { StackCategory } from '~/types/stacks'
 describe('ApiResponse Type', () => {
   it('should create a valid ApiResponse object', () => {
     const contact: Contact = {
-      type: 'email' as any,
+      type: 'email' as string,
       icon: 'mdi:email',
       label: 'Email',
       url: 'test@example.com',

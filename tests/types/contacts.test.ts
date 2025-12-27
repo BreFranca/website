@@ -4,7 +4,7 @@ import type { Contact } from '~/types/contacts'
 describe('Contact Type', () => {
   it('should create a valid Contact object', () => {
     const contact: Contact = {
-      type: 'email' as any,
+      type: 'email' as string,
       icon: 'mdi:email',
       label: 'Email',
       url: 'test@example.com',
@@ -19,14 +19,14 @@ describe('Contact Type', () => {
 
   it('should create different contact types', () => {
     const linkedin: Contact = {
-      type: 'linkedin' as any,
+      type: 'linkedin' as string,
       icon: 'mdi:linkedin',
       label: 'LinkedIn',
       url: 'https://linkedin.com/in/user',
     }
 
     const github: Contact = {
-      type: 'github' as any,
+      type: 'github' as string,
       icon: 'mdi:github',
       label: 'GitHub',
       url: 'https://github.com/user',
