@@ -5,7 +5,7 @@ import Projects from '~/pages/projects.vue'
 describe('Projects Page', () => {
   it('renders projects page', async () => {
     const wrapper = await mountSuspended(Projects)
-    expect(wrapper.text()).toContain('Projects')
+    expect(wrapper.text()).toContain('Projetos')
   })
 
   it('renders a div element', async () => {
