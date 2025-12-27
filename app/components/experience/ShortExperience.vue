@@ -7,18 +7,22 @@
           {{ company }}
         </a>
       </h3>
-      <span class="timeline-period">{{ period }}</span>
+      <span class="timeline-period"
+        >{{ period.start }} - {{ period.end ? period.end : t('present') }}</span
+      >
     </div>
   </article>
 </template>
 
 <script setup lang="ts">
+import type { ExperiencePeriod } from '~/types/experience'
+
 const { t } = useI18n()
 defineProps<{
   role: string
   company: string
   companyUrl: string
-  period: string
+  period: ExperiencePeriod
 }>()
 </script>
 

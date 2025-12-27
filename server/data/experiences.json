@@ -6,7 +6,10 @@
       "company": "Tech Solutions",
       "companyUrl": "https://techsolutions.com",
       "description": "Developing and maintaining user interfaces with a focus on performance and accessibility.",
-      "period": "Jan 2020 - Present"
+      "period": {
+        "start": "Jan 2020",
+        "end": "Present"
+      }
     },
     {
       "id": 2,
@@ -14,7 +17,10 @@
       "company": "WebWorks",
       "companyUrl": "https://webworks.com",
       "description": "Built responsive websites and collaborated with designers to enhance user experience.",
-      "period": "Jun 2018 - Dec 2019"
+      "period": {
+        "start": "Jun 2018",
+        "end": "Dec 2019"
+      }
     }
   ]
 }
