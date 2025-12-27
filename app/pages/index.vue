@@ -3,8 +3,8 @@
     <ArticleSection section-id="experience" :title="t('sections.experience')">
       <template v-for="experience in experiences" :key="experience.id">
         <ShortExperience
-          :role="experience.role"
-          :company="experience.company"
+          :role="t(experience.role)"
+          :company="t(experience.company)"
           :company-url="experience.companyUrl"
           :period="experience.period"
         />
@@ -43,7 +43,7 @@ import type { ApiResponse } from '~/types/apiResponse'
 import SmallConnect from '~/components/connect/SmallConnect.vue'
 
 const { t, locale } = useI18n()
-const { data } = await useFetch<ApiResponse>('/api/data', {
+const { data } = await useFetch<ApiResponse>('/api/home', {
   query: { locale },
   watch: [locale],
 })

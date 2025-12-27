@@ -4,7 +4,7 @@ import contactsData from '../data/contacts.json'
 
 export default defineEventHandler(() => {
   return {
-    experiences: experiencesData.experiences,
+    experiences: experiencesData.experiences.slice(0, 3),
     stacks: techStacksData.stacks,
     contacts: contactsData.contacts,
   }

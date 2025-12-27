@@ -6,12 +6,12 @@
     "home": "Home",
     "about": "About",
     "projects": "Projects",
-    "experience": "Experience",
+    "experience": "Resume",
     "contact": "Contact"
   },
   "at": "at",
   "sections": {
-    "experience": "Resume",
+    "experience": "Experience",
     "projects": "Projects",
     "techStack": "Tech Stack",
     "connect": "Connect",
@@ -55,5 +55,41 @@
       "description": "Interactive investment reports and financial data visualization platform."
     }
   },
-  "experiences": {}
+  "experiences": {
+    "mercedesBenz": {
+      "role": "Sr. Frontend Engineer",
+      "company": "Mercedes-Benz.IO",
+      "description": "Part of the team responsible for the Search & Results experience on the Mercedes-Benz website. Developed and maintained core features using TypeScript, Vue.js and SSR, improving performance and scalability."
+    },
+    "skrolCapital": {
+      "role": "Sr. Frontend Engineer",
+      "company": "SKROL Capital Inc.",
+      "description": "Developed two full-stack AI-driven products: Investor Discovery Platform (Laravel, React, Python) and FlowSign AI Document Signing Platform (Laravel, React, Next.js). Led product architecture and end-to-end delivery."
+    },
+    "aubay": {
+      "role": "Sr. Frontend Developer",
+      "company": "Aubay Portugal",
+      "description": "Contributed to new internal system modules for Millennium BCP Bank using React, Redux, and Node.js. Built components for enterprise design system in Agile environment."
+    },
+    "cvc": {
+      "role": "Senior Frontend Developer",
+      "company": "CVC CORP",
+      "description": "Enhanced User Dashboard for millions of customers (flights, hotels, rentals). Key contributor in redesigning CVC Login System with microfrontend adoption. Built BFF endpoints with Node.js."
+    },
+    "netshoes": {
+      "role": "Frontend Developer",
+      "company": "Netshoes Group",
+      "description": "Created marketing admin tools (Coupons, Clusters, Labels). Built promotions engine reducing processing time from 48h to 2h. Implemented promotion logic across homepage, cart, and checkout."
+    },
+    "rperformance": {
+      "role": "Software Engineer",
+      "company": "RPerformance Group",
+      "description": "Led overhaul of e-learning platform for Santander Bank. Refactored architecture separating backend (Laravel) and frontend (React). Improved system scalability and performance."
+    },
+    "jota3w": {
+      "role": "Software Engineer",
+      "company": "Jota3w Comunicação Digital",
+      "description": "Developed frontend solutions for enterprise clients. Built custom WordPress templates. Integrated Nespresso APIs and DocuSign. Developed shipping module for Nespresso. Led intranet development for Assaí supermarkets."
+    }
+  }
 }

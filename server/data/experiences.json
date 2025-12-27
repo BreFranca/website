@@ -1,3 +1,81 @@
 {
-  "experiences": []
+  "experiences": [
+    {
+      "id": "mercedes-benz",
+      "role": "experiences.mercedesBenz.role",
+      "company": "experiences.mercedesBenz.company",
+      "companyUrl": "https://www.mercedes-benz.io/",
+      "description": "experiences.mercedesBenz.description",
+      "period": {
+        "start": "Apr 2025",
+        "end": null
+      }
+    },
+    {
+      "id": "skrol-capital",
+      "role": "experiences.skrolCapital.role",
+      "company": "experiences.skrolCapital.company",
+      "companyUrl": "https://www.skrolcapital.com/",
+      "description": "experiences.skrolCapital.description",
+      "period": {
+        "start": "Mar 2024",
+        "end": "Apr 2025"
+      }
+    },
+    {
+      "id": "aubay",
+      "role": "experiences.aubay.role",
+      "company": "experiences.aubay.company",
+      "companyUrl": "https://www.aubay.pt/",
+      "description": "experiences.aubay.description",
+      "period": {
+        "start": "Oct 2022",
+        "end": "Mar 2024"
+      }
+    },
+    {
+      "id": "cvc",
+      "role": "experiences.cvc.role",
+      "company": "experiences.cvc.company",
+      "companyUrl": "https://www.cvc.com.br/",
+      "description": "experiences.cvc.description",
+      "period": {
+        "start": "Jun 2021",
+        "end": "Oct 2022"
+      }
+    },
+    {
+      "id": "netshoes",
+      "role": "experiences.netshoes.role",
+      "company": "experiences.netshoes.company",
+      "companyUrl": "https://www.netshoes.com.br/",
+      "description": "experiences.netshoes.description",
+      "period": {
+        "start": "Jul 2019",
+        "end": "Jun 2021"
+      }
+    },
+    {
+      "id": "rperformance",
+      "role": "experiences.rperformance.role",
+      "company": "experiences.rperformance.company",
+      "companyUrl": "https://www.rperformance.com.br/",
+      "description": "experiences.rperformance.description",
+      "period": {
+        "start": "Sep 2018",
+        "end": "Jul 2019"
+      }
+    },
+    {
+      "id": "jota3w",
+      "role": "experiences.jota3w.role",
+      "company": "experiences.jota3w.company",
+      "companyUrl": "https://www.jota3w.com.br/",
+      "description": "experiences.jota3w.description",
+      "period": {
+        "start": "Jul 2016",
+        "end": "Aug 2018"
+      }
+    }
+  ]
 }

@@ -55,5 +55,41 @@
       "description": "Plataforma de relatórios de investimento interativos e visualização de dados financeiros."
     }
   },
-  "experiences": {}
+  "experiences": {
+    "mercedesBenz": {
+      "role": "Engenheiro Frontend Sênior",
+      "company": "Mercedes-Benz.IO",
+      "description": "Parte da equipe responsável pela experiência de Busca & Resultados no site da Mercedes-Benz. Desenvolveu e manteve funcionalidades principais usando TypeScript, Vue.js e SSR, melhorando performance e escalabilidade."
+    },
+    "skrolCapital": {
+      "role": "Engenheiro Frontend Sênior",
+      "company": "SKROL Capital Inc.",
+      "description": "Desenvolveu dois produtos full-stack com IA do zero: Plataforma de Descoberta de Investidores (Laravel, React, Python) e FlowSign Plataforma de Assinatura com IA (Laravel, React, Next.js). Liderou arquitetura e entrega end-to-end."
+    },
+    "aubay": {
+      "role": "Desenvolvedor Frontend Sênior",
+      "company": "Aubay Portugal",
+      "description": "Contribuiu para novos módulos de sistema interno do Millennium BCP usando React, Redux e Node.js. Construiu componentes para design system empresarial em ambiente Ágil."
+    },
+    "cvc": {
+      "role": "Desenvolvedor Frontend Sênior",
+      "company": "CVC CORP",
+      "description": "Aprimorou Dashboard de Usuário para milhões de clientes (voos, hotéis, aluguéis). Contribuidor-chave no redesign do Sistema de Login CVC com adoção de microfrontend. Construiu endpoints BFF com Node.js."
+    },
+    "netshoes": {
+      "role": "Desenvolvedor Frontend",
+      "company": "Netshoes Group",
+      "description": "Criou ferramentas admin de marketing (Cupons, Clusters, Labels). Construiu engine de promoções reduzindo tempo de processamento de 48h para 2h. Implementou lógica de promoção em homepage, carrinho e checkout."
+    },
+    "rperformance": {
+      "role": "Engenheiro de Software",
+      "company": "RPerformance Group",
+      "description": "Liderou reestruturação de plataforma e-learning para Santander Bank. Refatorou arquitetura separando backend (Laravel) e frontend (React). Melhorou escalabilidade e performance do sistema."
+    },
+    "jota3w": {
+      "role": "Engenheiro de Software",
+      "company": "Jota3w Comunicação Digital",
+      "description": "Desenvolveu soluções frontend para clientes empresariais. Construiu templates WordPress customizados. Integrou APIs Nespresso e DocuSign. Desenvolveu módulo de frete para Nespresso. Liderou desenvolvimento de intranet para supermercados Assaí."
+    }
+  }
 }
