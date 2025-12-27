@@ -12,12 +12,23 @@
     </ArticleSection>
 
     <ArticleSection section-id="tech-stack" :title="t('sections.techStack')">
-      <div class="tech-stack-grid">
+      <div class="card-grid">
         <TechStack
           v-for="tech in stacks"
           :key="tech.name"
           :exp-name="tech.name"
           :exp-years="tech.experience"
+        />
+      </div>
+    </ArticleSection>
+
+    <ArticleSection section-id="connect" :title="t('sections.connect')">
+      <div class="card-grid">
+        <SmallConnect
+          v-for="contact in contacts"
+          :key="contact.type"
+          :icon="contact.icon"
+          :label="contact.label"
         />
       </div>
     </ArticleSection>
@@ -29,6 +40,7 @@ import ShortExperience from '~/components/experience/ShortExperience.vue'
 import { useI18n } from 'vue-i18n'
 import ArticleSection from '~/components/ArticleSection.vue'
 import type { ApiResponse } from '~/types/apiResponse'
+import SmallConnect from '~/components/connect/SmallConnect.vue'
 
 const { t, locale } = useI18n()
 const { data } = await useFetch<ApiResponse>('/api/data', {
@@ -37,10 +49,11 @@ const { data } = await useFetch<ApiResponse>('/api/data', {
 })
 const experiences = computed(() => data.value?.experiences || [])
 const stacks = computed(() => data.value?.stacks || [])
+const contacts = computed(() => data.value?.contacts || [])
 </script>
 
 <style scoped>
-.tech-stack-grid {
+.card-grid {
   @apply grid gap-4;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
 }

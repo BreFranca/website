@@ -1,5 +1,6 @@
 import experiencesData from '../data/experiences.json'
 import techStacksData from '../data/tech-stacks.json'
+import contactsData from '../data/contacts.json'
 
 export default defineEventHandler(event => {
   const query = getQuery(event)
@@ -8,5 +9,6 @@ export default defineEventHandler(event => {
   return {
     experiences: experiencesData[locale as keyof typeof experiencesData] || experiencesData.pt,
     stacks: techStacksData.stacks,
+    contacts: contactsData.contacts,
   }
 })

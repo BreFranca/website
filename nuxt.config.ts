@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   dir: {
     public: '../public',
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxt/eslint'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxt/eslint', '@nuxt/icon'],
   i18n: {
     locales: [
       { code: 'pt', iso: 'pt-BR', name: 'Português', file: 'pt.json' },

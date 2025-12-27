@@ -13,7 +13,8 @@
   "sections": {
     "experience": "Experiência",
     "projects": "Projetos",
-    "techStack": "Tech Stack"
+    "techStack": "Tech Stack",
+    "connect": "Conecte"
   },
   "experience": {
     "yearsShort": "anos"
