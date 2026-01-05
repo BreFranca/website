@@ -6,7 +6,10 @@ export default defineNuxtConfig({
   dir: {
     public: '../public',
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxt/eslint', '@nuxt/icon'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxt/eslint', '@nuxt/icon', 'nuxt-gtag'],
+  gtag: {
+    id: 'G-3R3P0B582T',
+  },
   i18n: {
     locales: [
       { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' },
@@ -18,7 +21,6 @@ export default defineNuxtConfig({
     langDir: '../locales',
     lazy: true,
   },
-
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
